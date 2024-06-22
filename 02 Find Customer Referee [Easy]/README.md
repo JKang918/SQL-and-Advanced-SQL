@@ -1,6 +1,7 @@
 ## [SQL50] 02. Find Customer Referee
 
->Description: [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/?envType=study-plan-v2&envId=top-sql-50)\
+### Description: 
+[Find Customer Referee](https://leetcode.com/problems/find-customer-referee/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `Customer`
 

@@ -1,6 +1,7 @@
 ## [SQL50] 03. Big Countires
 
->Description: [03. Big Countires](https://leetcode.com/problems/big-countries/?envType=study-plan-v2&envId=top-sql-50)\
+### Description
+[Big Countires](https://leetcode.com/problems/big-countries/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `World`
 
@@ -20,7 +21,7 @@ Each row of this table gives information about the name of a country, the contin
 
 A country is big if:
 
-- it has an area of at least three million (i.e., <code>3000000 km<sus>2<sus\><code\>), or
+- it has an area of at least three million (i.e., <code>3000000 km<sup>2</sup></code>), or
 - it has a population of at least twenty-five million (i.e., `25000000`).
 
 Write a solution to find the name, population, and area of the big countries.
