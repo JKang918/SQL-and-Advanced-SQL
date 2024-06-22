@@ -82,7 +82,7 @@ WITH Subtable AS
 FROM Person
 GROUP BY email)
 ```
-2. Rename the previous subquery (derived table) as Subtable
+2. Name the previous subquery (derived table) as Subtable
 
 ```sql
 SELECT Email
