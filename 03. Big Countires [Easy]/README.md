@@ -1,6 +1,6 @@
 ## [SQL50] 03. Big Countires
 
-### Description
+### Description:
 [Big Countires](https://leetcode.com/problems/big-countries/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `World`
