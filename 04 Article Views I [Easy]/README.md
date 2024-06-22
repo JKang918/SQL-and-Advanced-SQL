@@ -1,7 +1,7 @@
 ## [SQL50] 04. Article Views I
 
 ### Description:
-[Article Views I](https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50
+[Article Views I](https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `Views`
 
