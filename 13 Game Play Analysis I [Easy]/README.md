@@ -1,4 +1,4 @@
-## [SQL50] 27. Game Play Analysis I
+## [SQL50] 13. Game Play Analysis I
 
 ### Description:
 [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/description/?envType=study-plan-v2&envId=premium-sql-50)
