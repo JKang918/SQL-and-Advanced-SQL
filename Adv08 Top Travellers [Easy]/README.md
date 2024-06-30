@@ -1,7 +1,7 @@
-## [Advanced SQL50] 06. Combine Two Tables
+## [Advanced SQL50] 08. Top Travellers
 
 ### Description:
-[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/?envType=study-plan-v2&envId=premium-sql-50)
+[Top Travellers](https://leetcode.com/problems/top-travellers/description/?envType=study-plan-v2&envId=premium-sql-50)
 
 Table: `Users`
 
