@@ -142,3 +142,4 @@ Output:
 ```
 
 - checkout how the joined table looks
+- No null data: MySQL `JOIN` is `INNER JOIN` by default
