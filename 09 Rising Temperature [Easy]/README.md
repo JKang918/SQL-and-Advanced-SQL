@@ -75,11 +75,11 @@ WHERE
     w1.temperature > w2.temperature
 ```
 
-For example, if w1.id is 1, w2.id of null is joined. if w1.id is 2, w2.id of 1 is joined. So today's temperature (w1.temperature) is greater than yesterday's temperature (w2.temperature), extract that id.
+For example, if w1.id is 1, w2.id of null is joined. if w1.id is 2, w2.id of 1 is joined. So if today's temperature (w1.temperature) is greater than yesterday's temperature (w2.temperature), extract that id.
 
 But the problem is `recordDate` is not in ascending order.
 
-So instead, we should go for the above solution.\
+So instead, we should go for the above solution.
 
 ```sql
 WHERE 
@@ -93,6 +93,8 @@ The key to understand this solution lies in the WHERE statement.
 So the above means that `w1.recordDate` is one day after `w2.recordDate`.
 
 To sum up, the above condition means, today's temperature is greater than yesterday's temperature.
+
+For more information for `datediff`, check out [here](https://www.w3resource.com/mysql/date-and-time-functions/mysql-datediff-function.php#:~:text=The%20MySQL%20DATEDIFF()%20function,ignoring%20the%20time%20portion%20completely.)  
 
 Similary, the below also works.
 
