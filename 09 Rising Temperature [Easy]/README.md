@@ -93,3 +93,50 @@ The key to understand this solution lies in the WHERE statement.
 So the above means that `w1.recordDate` is one day after `w2.recordDate`.
 
 To sum up, the above condition means, today's temperature is greater than yesterday's temperature.
+
+Similary, the below also works.
+
+```sql
+SELECT 
+    w1.Id
+FROM 
+    Weather w1
+JOIN 
+    Weather w2 ON DATEDIFF(w1.recordDate, w2.recordDate) = 1
+WHERE 
+    w1.temperature > w2.temperature;
+```
+
+To better understand this, let me share an example case.
+
+
+```
+Input: 
+Weather table:
+| id | recordDate | temperature |
+| -- | ---------- | ----------- |
+| 1  | 2015-01-01 | 10          |
+| 2  | 2015-01-02 | 25          |
+| 3  | 2015-01-03 | 20          |
+| 4  | 2015-01-04 | 30          |
+```
+
+```sql
+SELECT 
+    *
+FROM 
+    Weather w1
+JOIN 
+    Weather w2 ON DATEDIFF(w1.recordDate, w2.recordDate) = 1
+```
+
+```
+Output: 
+| id | recordDate | temperature | id | recordDate | temperature |
+| -- | ---------- | ----------- | -- | ---------- | ----------- |
+| 2  | 2015-01-02 | 25          | 1  | 2015-01-01 | 10          |
+| 3  | 2015-01-03 | 20          | 2  | 2015-01-02 | 25          |
+| 4  | 2015-01-04 | 30          | 3  | 2015-01-03 | 20          |
+```
+
+- checkout how the joined table looks
