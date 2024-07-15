@@ -1,4 +1,4 @@
-## [SQL50] 24. Queries Quality and Percentages 
+## [SQL50] 19. Queries Quality and Percentages 
 [Queries Quality and Percentages](https://leetcode.com/problems/queries-quality-and-percentage/description/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `Queries`
