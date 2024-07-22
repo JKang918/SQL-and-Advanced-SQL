@@ -1,5 +1,5 @@
-## [SQL50] 32. Triangle Judgement
-[Triangle Judgement](https://leetcode.com/problems/triangle-judgement/?envType=study-plan-v2&envId=top-sql-50)
+## [SQL50] 31. Primary Department for Each Employee
+[Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/description/?envType=study-plan-v2&envId=top-sql-50)
 
 Table: `Employee`
 
